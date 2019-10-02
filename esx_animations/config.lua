@@ -39,29 +39,29 @@ Config.Animations = {
     },
 
     {
-		name  = 'driver',
-		label = 'Förarsätet 💺',
-		items = {
-	    {label = "Prata med baksätet", type = "anim", data = {lib = "oddjobs@taxi@driver", anim = "leanover_idle", repet = 32}},
-	    {label = "Ge/Ta genom rutan", type = "anim", data = {lib = "oddjobs@taxi@cyi", anim = "std_hand_off_ps_passenger", repet = 32}},
-	    {label = "Upp med händerna", type = "anim", data = {lib = "anim@mp_player_intincarsurrenderstd@ds@", anim = "idle_a", repet = 33}},
-	    {label = "Träna på gitarren", type = "anim", data = {lib = "anim@mp_player_intincarair_guitarstd@ds@", anim = "idle_a", repet = 33}},
-	    {label = "Trumma lite", type = "anim", data = {lib = "anim@mp_player_intincarair_synthstd@ds@", anim = "idle_a", repet = 33}},
-	    {label = "chicken", type = "anim", data = {lib = "anim@mp_player_intincarchicken_tauntstd@ds@", anim = "idle_a", repet = 49}},
-		--{label = "Bli avsugen", type = "anim", data = {lib = "oddjobs@towing", anim = "m_blow_job_loop", repet = 33}},
-		--{label = "Ha sex", type = "anim", data = {lib = "mini@prostitutes@sexlow_veh", anim = "low_car_sex_loop_player", repet = 33}},
+	name  = 'driver',
+	label = 'Förarsätet 💺',
+	items = {
+	{label = "Prata med baksätet", type = "anim", data = {lib = "oddjobs@taxi@driver", anim = "leanover_idle", repet = 32}},
+	{label = "Ge/Ta genom rutan", type = "anim", data = {lib = "oddjobs@taxi@cyi", anim = "std_hand_off_ps_passenger", repet = 32}},
+	{label = "Upp med händerna", type = "anim", data = {lib = "anim@mp_player_intincarsurrenderstd@ds@", anim = "idle_a", repet = 33}},
+	{label = "Träna på gitarren", type = "anim", data = {lib = "anim@mp_player_intincarair_guitarstd@ds@", anim = "idle_a", repet = 33}},
+	{label = "Trumma lite", type = "anim", data = {lib = "anim@mp_player_intincarair_synthstd@ds@", anim = "idle_a", repet = 33}},
+	{label = "chicken", type = "anim", data = {lib = "anim@mp_player_intincarchicken_tauntstd@ds@", anim = "idle_a", repet = 49}},
+	--{label = "Bli avsugen", type = "anim", data = {lib = "oddjobs@towing", anim = "m_blow_job_loop", repet = 33}},
+	--{label = "Ha sex", type = "anim", data = {lib = "mini@prostitutes@sexlow_veh", anim = "low_car_sex_loop_player", repet = 33}},
 		}
 	},	
 	
 	{
-		name  = 'passenger',
-		label = 'Passagerarsätet 💺',
-		items = {		
-	    {label = "uttråkad", type = "anim", data = {lib = "amb@code_human_in_car_idles@low@ps@idle_d", anim = "idle_k", repet = 1}},
-	    {label = "Spy ur bilen", type = "anim", data = {lib = "oddjobs@taxi@tie", anim = "vomit_outside"}},
-	    --{label = "Ge avsugning", type = "anim", data = {lib = "oddjobs@towing", anim = "f_blow_job_loop", repet = 1}},
-	    --{label = "Ge avsugning", type = "anim", data = {lib = "mini@prostitutes@sexnorm_veh", anim = "bj_loop_prostitute", repet = 1}},
-	    --{label = "Ha sex", type = "anim", data = {lib = "mini@prostitutes@sexlow_veh", anim = "low_car_sex_loop_female", repet = 1}},
+	name  = 'passenger',
+	label = 'Passagerarsätet 💺',
+	items = {		
+	{label = "uttråkad", type = "anim", data = {lib = "amb@code_human_in_car_idles@low@ps@idle_d", anim = "idle_k", repet = 1}},
+	{label = "Spy ur bilen", type = "anim", data = {lib = "oddjobs@taxi@tie", anim = "vomit_outside"}},
+	--{label = "Ge avsugning", type = "anim", data = {lib = "oddjobs@towing", anim = "f_blow_job_loop", repet = 1}},
+	--{label = "Ge avsugning", type = "anim", data = {lib = "mini@prostitutes@sexnorm_veh", anim = "bj_loop_prostitute", repet = 1}},
+	--{label = "Ha sex", type = "anim", data = {lib = "mini@prostitutes@sexlow_veh", anim = "low_car_sex_loop_female", repet = 1}},
 		}
 	},
 
@@ -184,10 +184,10 @@ Config.Animations = {
         {label = "Tjena!", type = "anim", data = {lib = "gestures@m@standing@casual", anim = "gesture_hello"}},
         {label = "Skaka hand", type = "anim", data = {lib = "mp_common", anim = "givetake1_a"}},
         {label = "Slå händerna samman", type = "anim", data = {lib = "mp_ped_interaction", anim = "handshake_guy_a"}},
-	    {label = "Skaka hand samt krama", type = "anim", data = {lib = "mp_ped_interaction", anim = "hugs_guy_a"}},
-	    {label = "Militärhälsing", type = "anim", data = {lib = "mp_player_int_uppersalute", anim = "mp_player_int_salute", repet = 1}},
-	    {label = "Boop!", type = "anim", data = {lib = "anim@mp_radio@medium_apment", anim = "action_a_kitchen"}},
-	    {label = "Gangsta", type = "anim", data = {lib = "missfbi3_sniping", anim = "dance_m_default"}},
+	{label = "Skaka hand samt krama", type = "anim", data = {lib = "mp_ped_interaction", anim = "hugs_guy_a"}},
+	{label = "Militärhälsing", type = "anim", data = {lib = "mp_player_int_uppersalute", anim = "mp_player_int_salute", repet = 1}},
+	{label = "Boop!", type = "anim", data = {lib = "anim@mp_radio@medium_apment", anim = "action_a_kitchen"}},
+	{label = "Gangsta", type = "anim", data = {lib = "missfbi3_sniping", anim = "dance_m_default"}},
         }
     },
 
@@ -231,7 +231,7 @@ Config.Animations = {
         {label = "Städning: Borsta", type = "scenario", data = {anim = "WORLD_HUMAN_JANITOR"}},
         {label = "Städning: Putsa", type = "scenario", data = {anim = "WORLD_HUMAN_MAID_CLEAN"}},
         {label = "Butiksbiträde: Ge ölback", type = "anim", data = {lib = "mp_am_hold_up", anim = "purchase_beerbox_shopkeeper"}},
-	    {label = "Bartender: Hälla upp öl", type = "anim", data = {lib = "mini@drinking", anim = "shots_barman_b"}},
+	{label = "Bartender: Hälla upp öl", type = "anim", data = {lib = "mini@drinking", anim = "shots_barman_b"}},
         {label = "Journalist: Tag kort", type = "scenario", data = {anim = "WORLD_HUMAN_PAPARAZZI"}},
         {label = "Clown: Leka staty", type = "scenario", data = {anim = "WORLD_HUMAN_HUMAN_STATUE"}},
         {label = "Uteliggare: Tigg med skylt", type = "scenario", data = {anim = "WORLD_HUMAN_BUM_FREEWAY"}},
@@ -241,7 +241,7 @@ Config.Animations = {
         {label = "Proffs i golf", type = "anim", data = {lib = "amb@world_human_golf_player@male@base", anim = "base", repet = 1}},
         {label = "Använd hammare", type = "scenario", data = {anim = "WORLD_HUMAN_HAMMERING"}},
         {label = "Hallå här är jag!", type = "anim", data = {lib = "misscarsteal2", anim = "come_here_idle_c"}},
-	    {label = "Hacka dator", type = "anim", data = {lib = "mp_prison_break", anim = "hack_loop", repet = 1}},
+	{label = "Hacka dator", type = "anim", data = {lib = "mp_prison_break", anim = "hack_loop", repet = 1}},
         {label = "Fiskar", type = "scenario", data = {anim = "world_human_stand_fishing"}},
         {label = "Putta", type = "anim", data = {lib = "rcmpaparazzo_2", anim = "shag_loop_a", repet = 1}},
         }
@@ -349,10 +349,10 @@ Config.Animations = {
         {label = "Två väskor och högklackat", type = "attitude", data = {lib = "move_f@sassy", anim = "move_f@sassy"}},
         {label = "Arrogant", type = "attitude", data = {lib = "move_f@arrogant@a", anim = "move_f@arrogant@a"}},
         {label = "Getto", type = "attitude", data = {lib = "move_m@gangster@generic", anim = "move_m@gangster@generic"}},
-	    {label = "Full", type = "attitude", data = {lib = "move_m@drunk@slightlydrunk", anim = "move_m@drunk@slightlydrunk"}},
-	    {label = "Fullare", type = "attitude", data = {lib = "move_m@drunk@moderatedrunk", anim = "move_m@drunk@moderatedrunk"}},
-	    {label = "Fullast", type = "attitude", data = {lib = "move_m@drunk@verydrunk", anim = "move_m@drunk@verydrunk"}},
-	    {label = "Jag kan också springa", type = "attitude", data = {lib = "move_m@alien", anim = "move_m@alien"}},
+	{label = "Full", type = "attitude", data = {lib = "move_m@drunk@slightlydrunk", anim = "move_m@drunk@slightlydrunk"}},
+	{label = "Fullare", type = "attitude", data = {lib = "move_m@drunk@moderatedrunk", anim = "move_m@drunk@moderatedrunk"}},
+	{label = "Fullast", type = "attitude", data = {lib = "move_m@drunk@verydrunk", anim = "move_m@drunk@verydrunk"}},
+	{label = "Jag kan också springa", type = "attitude", data = {lib = "move_m@alien", anim = "move_m@alien"}},
         }
     },
     {
