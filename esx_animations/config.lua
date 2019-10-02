@@ -2,17 +2,17 @@ Config = {}
 
 Config.SyncAnimations = {
 	{
-		name = 'synced',
-		label = 'Synkade animationer',
-		items = {
-			{label = 'Gangsterhälsa på närmsta spelare', data = {lib = 'mp_ped_interaction', anim1 = 'hugs_guy_b', anim2 = 'hugs_guy_a', distans = 1.15, distans2 = 0.0, height = 0.0, spin = 180.0}},
-			{label = 'Krama närmsta spelare', data = {lib = 'mp_ped_interaction', anim1 = 'kisses_guy_b', anim2 = 'kisses_guy_b', distans = 1.10, distans2 = -0.1, height = 0.0, spin = 180.0}},
-			{label = 'Kyss närmsta spelare', data = {lib = 'mp_ped_interaction', anim1 = 'kisses_guy_a', anim2 = 'kisses_guy_a', distans = 1.15, distans2 = 0.0, height = 0.0, spin = 180.0}},
-			{label = 'Skaka hand med närmsta spelare', data = {lib = 'mp_common', anim1 = 'givetake1_a', anim2 = 'givetake1_a', distans = 0.8, distans2 = 0.05, height = 0.0, spin = 180.0}},
-            {label = 'Gör highfive med närmsta spelare', data = {lib = 'mp_ped_interaction', anim1 = 'highfive_guy_a', anim2 = 'highfive_guy_b', distans = 1.2, distans2 = -0.3, height = 0.0, spin = 180.0}},
-            {label = 'Gå ner på HAN 1 🔞', data = {lib = 'misscarsteal2pimpsex', anim1 = 'pimpsex_hooker', anim2 = 'pimpsex_pimp', distans = 0.8, distans2 = 0.0, height = 0.0, repet = 1}},
-            {label = 'Gå ner på HAN 2 🔞', data = {lib = 'misscarsteal2pimpsex', anim1 = 'pimpsex_hooker', anim2 = 'pimpsex_punter', distans = 0.8, distans2 = 0.0, height = 0.0, repet = 1}},
-            {label = 'Ta HENNE mot väggen 🔞', data = {lib = 'misscarsteal2pimpsex', anim1 = 'shagloop_pimp', anim2 = 'shagloop_hooker', distans = 0.8, distans2 = 0.0, height = 0.0, repet = 1}},
+	name = 'synced',
+	label = 'Synkade animationer',
+	items = {
+	{label = 'Gangsterhälsa på närmsta spelare', data = {lib = 'mp_ped_interaction', anim1 = 'hugs_guy_b', anim2 = 'hugs_guy_a', distans = 1.15, distans2 = 0.0, height = 0.0, spin = 180.0}},
+	{label = 'Krama närmsta spelare', data = {lib = 'mp_ped_interaction', anim1 = 'kisses_guy_b', anim2 = 'kisses_guy_b', distans = 1.10, distans2 = -0.1, height = 0.0, spin = 180.0}},
+	{label = 'Kyss närmsta spelare', data = {lib = 'mp_ped_interaction', anim1 = 'kisses_guy_a', anim2 = 'kisses_guy_a', distans = 1.15, distans2 = 0.0, height = 0.0, spin = 180.0}},
+	{label = 'Skaka hand med närmsta spelare', data = {lib = 'mp_common', anim1 = 'givetake1_a', anim2 = 'givetake1_a', distans = 0.8, distans2 = 0.05, height = 0.0, spin = 180.0}},
+        {label = 'Gör highfive med närmsta spelare', data = {lib = 'mp_ped_interaction', anim1 = 'highfive_guy_a', anim2 = 'highfive_guy_b', distans = 1.2, distans2 = -0.3, height = 0.0, spin = 180.0}},
+        {label = 'Gå ner på HAN 1 🔞', data = {lib = 'misscarsteal2pimpsex', anim1 = 'pimpsex_hooker', anim2 = 'pimpsex_pimp', distans = 0.8, distans2 = 0.0, height = 0.0, repet = 1}},
+        {label = 'Gå ner på HAN 2 🔞', data = {lib = 'misscarsteal2pimpsex', anim1 = 'pimpsex_hooker', anim2 = 'pimpsex_punter', distans = 0.8, distans2 = 0.0, height = 0.0, repet = 1}},
+        {label = 'Ta HENNE mot väggen 🔞', data = {lib = 'misscarsteal2pimpsex', anim1 = 'shagloop_pimp', anim2 = 'shagloop_hooker', distans = 0.8, distans2 = 0.0, height = 0.0, repet = 1}},
 		}
 	}
 }
